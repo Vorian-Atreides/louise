@@ -1,52 +1,81 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
 image {
-    border: 0;
+  border: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-#caption {
-    width: 640px;
-    height: 128px;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.video_1 {
+  position: absolute;
+  top: 15px;
+  left: 60px;
+}
+
+.video_2 {
+  position: absolute;
+  bottom: 48px;
+  left: 200px;
+}
+
+.video_3 {
+  position: absolute;
+  bottom: 16px;
+  right: 200px;
 }
 
 #simple {
-    width: 128px;
-    height: 64px;
+  width: 128px;
+  height: 64px;
 }
 
-#small {
-    width: 64px;
-    height: 32px;
-}
-
-#plus {
-    position: absolute;
-    width: 128px;
-    height: 64px;
-    visibility: visible;
-}
-
-#minus{
-    position: absolute;
-    width: 128px;
-    height: 64px;
-    visibility: hidden
+#mini {
+  width: 24px;
+  height: 24px;
 }
 
 .wrapper{
-        width: 128px;
-    height: 64px;
+  width: 128px;
+  height: 64px;
   position: relative;
 }
 
-#video {
-    visibility: hidden;
+.article {
+  width: 800px;
+  height: 600px;
+  display: none;
+}
+
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+}
+
+.content {
+  margin-left: 130px;
+}
+
+.thanks {
+  right: 0;
+  bottom: 0;
+  position: absolute;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }

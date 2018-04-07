@@ -1,15 +1,11 @@
-function show() {
-    document.getElementById('video').style.visibility = 'visible';
-    document.getElementById('minus').style.visibility = 'visible';
-    document.getElementById('plus').style.visibility = 'hidden';
-}
-
 function hide() {
-    document.getElementById('video').style.visibility = 'hidden';
-    document.getElementById('minus').style.visibility = 'hidden';
-    document.getElementById('plus').style.visibility = 'visible';
+  document.getElementById('video_1').style.display = 'none';
+  document.getElementById('video_2').style.display = 'none';
+  document.getElementById('video_3').style.display = 'none';
+  document.getElementById('news').style.display = 'none';
 }
 
-function sayHello() {
-   alert("Hello World")
+function show(id) {
+  hide()
+  document.getElementById(id).style.display = 'block';
 }
