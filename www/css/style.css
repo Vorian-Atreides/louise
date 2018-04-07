@@ -65,7 +65,10 @@ a {
 }
 
 .content {
-  margin-left: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 .thanks {
